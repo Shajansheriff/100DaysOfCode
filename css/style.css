@@ -3,8 +3,15 @@ body {
   color: #000;
 }
 
+.container {
+  overflow: hidden;
+  padding: 0 1em;
+  max-width: 32em;
+  margin: auto;
+}
+
 .header {
-  margin: 50px auto;
+  margin: 30px auto;
   text-align: center;
 }
 
@@ -20,4 +27,52 @@ body {
 
 .title:hover {
   color: #262335;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+  color: #000;
+}
+
+a:hover {
+  color: #333333;
+}
+
+.day-header, .day {
+  /*font-family: 'Mrs Sheppards', cursive;*/
+  font-size: 1em
+}
+
+.day-header {
+  font-weight: normal;
+  padding: 10px 20px;
+}
+
+.link-header {
+  font-weight: normal;
+  text-align: left;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.link {
+  font-size: 1em;
+  padding: 10px;
+  text-align: left;
+  font-weight: lighter;
+  letter-spacing: 0.2px;
+  -webkit-font-smoothing: antialiased;
 }
