@@ -1,0 +1,23 @@
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.header {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.title {
+  text-decoration: none;
+  font-family: 'Mrs Sheppards', cursive;
+  font-size: 40px;
+}
+
+.title:link, .title:visited, .title:active {
+  color: #000;
+}
+
+.title:hover {
+  color: #262335;
+}
